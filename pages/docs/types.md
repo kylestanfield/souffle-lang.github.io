@@ -55,7 +55,7 @@ Here we have defined distinct sets of symbols from the universe of possible symb
 
 ![location types as a subset of the universe](https://souffle-lang.github.io/img/universe_symbol_base.svg)
 ### Union Type
-The Union type unifies a fixed number of primitive types, of either base or union types, as long as all are derived from the sam primitive type, symbol or number.
+The Union type unifies a fixed number of primitive types, of either base or union types, as long as all are derived from the same primitive type: symbol or number.
 ```
 .type <ident> = <ident1> | <ident2> | ... | <identk>
 ```
